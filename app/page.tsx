@@ -27,11 +27,10 @@ export default function Home() {
             {/* Left Text Section */}
             <div className="text-center md:text-left space-y-6">
               <h1 className="text-center font-headline text-4xl md:text-4xl font-bold tracking-tight text-white drop-shadow-lg">
-                Something Amazing is Coming Soon
+                Innovate. Code. Evolve.
               </h1>
               <p className="mx-auto md:mx-0 text-lg md:text-xl text-center leading-relaxed text-[#D0D7DB]">
-                We are a forward-thinking technology company, crafting innovative
-                digital solutions for the modern world. Stay tuned for our launch.
+                At DevOnce Technologies, our team is shaping the next wave of digital innovation — smarter systems, seamless designs, and scalable solutions. Our vision is in motion, and the wait will be worth it.
               </p>
             </div>
 
@@ -40,7 +39,8 @@ export default function Home() {
               <div className="relative">
                 <div className="absolute inset-0 bg-linear-to-r from-[#0F6679] to-[#02B3BD] rounded-full opacity-85 blur-3xl"></div>
                 <Image
-                  src="https://cdn.pixabay.com/photo/2018/11/29/21/51/social-media-3846597_1280.png"
+                  // src="https://cdn.pixabay.com/photo/2018/11/29/21/51/social-media-3846597_1280.png"
+                  src="/right-img2.png"
                   alt="Illustration"
                   width={1000}
                   height={1000}
