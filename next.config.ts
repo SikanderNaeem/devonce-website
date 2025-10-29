@@ -1,7 +1,18 @@
-import type { NextConfig } from "next";
+import { optimizeImage } from "next/dist/server/image-optimizer";
 
-const nextConfig: NextConfig = {
-  /* config options here */
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export',
+  trailingSlash: true,
+  images: {
+    unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'cdn.pixabay.com',
+      },
+    ],
+  },
 };
 
-export default nextConfig;
+module.exports = nextConfig
