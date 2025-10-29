@@ -21,7 +21,7 @@ export default function Home() {
         />
       </div>
 
-      <div className="flex flex-col min-h-screen relative z-10 text-white">
+      <div className="flex flex-col lg:flex-none min-h-screen relative z-10 text-white">
         <main className="grow flex items-center justify-center relative overflow-hidden px-6 py-20">
           <div className="container mx-auto grid md:grid-cols-2 gap-8 items-center">
             {/* Left Text Section */}
@@ -35,7 +35,7 @@ export default function Home() {
             </div>
 
             {/* Right Image Section */}
-            <div className="hidden md:flex justify-center relative">
+            <div className="justify-center relative">
               <div className="relative">
                 <div className="absolute inset-0 bg-linear-to-r from-[#0F6679] to-[#02B3BD] rounded-full opacity-85 blur-3xl"></div>
                 <Image
